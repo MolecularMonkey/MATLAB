@@ -1,0 +1,20 @@
+definput1 = {'570','650'};
+definput2 = {'650','740','570'};
+definput3 = {'1000','1075','1'};
+DefCoeff=0.47;
+Initialguess1=0.5;
+Initialguess=0.5;
+DefaultInputs={};
+DefaultInputs{1,1}='definput1';
+DefaultInputs{1,2}=definput1;
+DefaultInputs{2,1}='definput2';
+DefaultInputs{2,2}=definput2;
+DefaultInputs{3,1}='definput3';
+DefaultInputs{3,2}=definput3;
+DefaultInputs{4,1}='DefCoeff';
+DefaultInputs{4,2}=DefCoeff;
+DefaultInputs{5,1}='Initialguess';
+DefaultInputs{5,2}=Initialguess;
+DefaultInputs{6,1}='Initialguess1';
+DefaultInputs{6,2}=Initialguess1;
+save DefaultInputs_Pois1.mat DefaultInputs
