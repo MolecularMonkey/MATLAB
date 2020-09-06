@@ -1,4 +1,4 @@
-dsfgprompt = {'How many Data Set Do You Want to Read/Analyze'};
+prompt = {'How many Data Set Do You Want to Read/Analyze'};
 dlgtitle = 'DataSetNo?';
 dims = [1 50];
 answer = inputdlg(prompt,dlgtitle,dims);
